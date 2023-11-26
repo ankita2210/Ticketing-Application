@@ -14,7 +14,7 @@ spec:
   spec:
    containers:
     - name: client
-      image: ankita/client
+      image: nasipuri2210/client
 
 ---
 apiVersion: v1

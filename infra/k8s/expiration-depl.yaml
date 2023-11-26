@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: ankita/expiration:0.0.2
+          image: nasipuri2210/expiration
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

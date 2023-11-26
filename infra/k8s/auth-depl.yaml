@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: ankita/auth
+          image: nasipuri2210/auth
           env:
             - name: JWT_KEY
               valueFrom:

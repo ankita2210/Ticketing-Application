@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: ankita/payments:0.0.1
+          image: nasipuri2210/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

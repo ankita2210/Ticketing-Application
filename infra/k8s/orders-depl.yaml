@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: ankita/orders:0.0.3
+          image: nasipuri2210/orders
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
