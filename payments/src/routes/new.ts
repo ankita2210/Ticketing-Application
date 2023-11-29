@@ -21,7 +21,11 @@ router.post(
   requireAuth,
   async (req: Request, res: Response) => {
     let { token, orderId } = req.body;
+    console.log(req.body);
     token = 'tok_visa';
+    console.log("printing values");
+    console.log(orderId)
+    console.log(token);
     const order = await Order.findById(orderId);
 
     if (!order) {
